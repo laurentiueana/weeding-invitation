@@ -1,0 +1,141 @@
+/* COLORS
+ Albastru Andrea #006666 ;*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #006666;
+}
+
+.lang{
+  margin: 0 auto;
+  width: 40%;
+}
+
+.buton {
+  color: #006666;
+  background-color: #f1c40f;
+  text-align: center;
+  text-decoration: none;
+  font-size: 120%;
+  margin: 0 auto;
+  margin-top: 3%;
+  width: 23%;
+  height:3%;
+  border: 1px solid green;
+  border-bottom: 1px solid #006666;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px;
+  box-shadow: 5px 0px 20px #fff;
+  display: inline-block;
+}
+
+.buton a:link, a:active{
+  text-decoration: none;
+  color:#006666;
+}
+.buton a:hover, a:visited{
+  color:white;
+}
+
+.buton img{
+  margin: 0 auto;
+  width: 17px;
+}
+
+
+section {
+  margin: auto;
+  width: 90%;
+  border-radius: 15px;
+  border-bottom: 1px solid #2c3e50;
+  border-left: 1px solid #2c3e50;
+  border-right: 1px solid #2c3e50;
+  padding: 3px;
+  box-shadow: 5px 5px 5px grey;
+  background-color:#fff;
+}
+
+section img {
+  display: block;
+  margin: 0 auto;
+  width: 85%;
+  padding-top: 0;
+}
+
+
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border: solid 0px #006666;
+  box-shadow: 0px 2px 20px #f1c40f;
+  /*  */
+}
+
+.main1 {
+  background-color: #ffff;
+  font-size: 130%;
+  width: 80%;
+  height:50%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 10px 1px 10px;
+  border: solid 0px #006666;
+  box-shadow: 1px 2px 20px #f1c40f;
+
+}
+
+.main2 {
+  background-color: #ffff;
+  font-size: 130%;
+  width: 80%;
+  height:50%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 10px 50px 10px;
+  border: solid 0px #006666;
+  box-shadow: 1px 2px 20px #f1c40f;
+}
+
+/*LOCATION AND WEATHER*/
+
+.lw {
+  color: #006666;
+  font-size: 80%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.lw-bottom {
+  width: 20%;
+  border-bottom: solid 2px #f1c40f;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.cadru {
+  margin: 0 auto;
+  width: 70%;
+  display: block;
+  border-bottom: 1px solid blue;
+}
+
+footer {
+  color: #D3D3D3;
+  margin: auto;
+  font-size: 25%;
+  padding-top: 1px;
+  text-align: center;
+  display: block;
+}
